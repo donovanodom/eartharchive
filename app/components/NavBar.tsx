@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-<div className="navbar bg-primary">
+<div className="navbar bg-primary" style={{borderBottom: '1px solid black'}}>
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -14,10 +14,11 @@ const NavBar = () => {
       <li><Link href='signup'>Sign Up</Link></li>
       </ul>
     </div>
-    <a className="text-xl">The Curator</a>
+    <a className="text-xl navbar ps-5" style={{fontFamily: 'var(--title-font)', fontSize: '28px', fontWeight: '600  '}}>The Curator</a>
   </div>
-  <div className="navbar-end hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+  <div className="navbar-end hidden lg:flex ">
+    <ul className="menu menu-horizontal px-1 font-light flex items-center">
+      <li><Link href='explore' className='btn font-light bg-secondary-content border-none text-base-100 hover:bg-neutral'>Explore Topics</Link></li>
       <li><Link href='login'>Log In</Link></li>
       <li><Link href='signup'>Sign Up</Link></li>
     </ul>

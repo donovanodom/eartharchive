@@ -46,16 +46,16 @@ const config: Config = {
            'warning' : '#ffc014',
            'error' : '#f4511f',
 
-          '--rounded-box': '0',          
-          '--rounded-btn': '0',        
-          '--rounded-badge': '0',      
-
-          '--animation-btn': '.25s',       
-          '--animation-input': '.2s',       
-
-          '--btn-text-case': 'uppercase',   
-          '--navbar-padding': '.5rem',      
-          '--border-btn': '1px',            
+           '--rounded-box': '0.2rem',          
+           '--rounded-btn': '0.2rem',        
+           '--rounded-badge': '0.2rem',      
+ 
+           '--animation-btn': '.25s',       
+           '--animation-input': '.2s',       
+ 
+           '--btn-text-case': 'uppercase',   
+           '--navbar-padding': '.5rem',      
+           '--border-btn': '1px',           
         },
       },
     ],
